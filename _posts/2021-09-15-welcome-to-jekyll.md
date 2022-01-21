@@ -1,9 +1,16 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to Jekyll!"
 date:   2021-09-15 15:42:32 +1000
 categories: jekyll update
 ---
+
+Below is the example default post that you find when you setup Jekyll for this first time! FYI, the default layout is post, which doesn’t exist in the Minimal Mistakes theme (this theme), and should be changed to single.
+
+We will not speak of how long it took me to discover that.
+
+---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

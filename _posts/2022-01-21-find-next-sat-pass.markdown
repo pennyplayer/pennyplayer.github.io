@@ -5,8 +5,6 @@ date:   2022-01-21 14:00:00 +1100
 categories: jekyll update
 ---
 
-## Find Next Sat Pass
-
 Okay, babies first piece of code is to:
 
 * Find a library to deal with orbital mechanics (so I don't have to)
@@ -15,3 +13,8 @@ Okay, babies first piece of code is to:
 
 I'm making the assumption that the camera is indeed pointing directly down. I actually haven't been able to find anything in the docs that explicitly states this, but given the eternal challenge of remote imaging seems to be improving the resolution it makes sense to me that it ***should*** be pointing down. Love a good should.
 
+## Debugging
+
+* I've found the pyorbital function get_next_passes to be quite unreliable, with it returning a different number of upcoming passes every time I run it.
+
+Apparently [thorsteinssonh](google.com) has the same problem in his project, and wrote a custom function which seems to work quite well. 

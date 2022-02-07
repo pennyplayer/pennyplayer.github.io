@@ -17,4 +17,6 @@ I'm making the assumption that the camera is indeed pointing directly down. I ac
 
 * I've found the pyorbital function get_next_passes to be quite unreliable, with it returning a different number of upcoming passes every time I run it.
 
-Apparently [thorsteinssonh](google.com) has the same problem in his project, and wrote a custom function which seems to work quite well. 
+Apparently [thorsteinssonh](https://python.hotexamples.com/examples/pyorbital.orbital/Orbital/-/python-orbital-class-examples.html#0xa7b6b686779f5f321573714f47731cb8cbe2273eb24d4cac932577d2f097d93c-12,,109,) has the same problem in his project, and wrote a custom function which seems to work quite well. 
+
+I guess I could either fix the repo, or just fucking move on.
